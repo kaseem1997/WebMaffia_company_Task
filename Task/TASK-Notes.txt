@@ -13,3 +13,8 @@ Fields:
 
 
 Part 2: The data submitted by the form needs to be displayed in a way that allows the admin to perform CRUD operations on it, and the result of the operation will be sent to the user via email (e.g. approved/disapproved by the admin, add soft delete).
+
+________________________________________________________________
+Before the run project please set up MailHog
+step 1: Download "MailHog_windows_amd64.exe" file 
+step 2: After download move this file to C:\MailHog folder and after the run cmd "C:\MailHog>MailHog_windows_amd64.exe".
