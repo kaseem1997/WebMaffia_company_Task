@@ -1,0 +1,15 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>> WebMaffia Company Task (30-06-23)<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Create a basic crud app in laravel with proper validation, with functionality to add edit users.
+
+Part 1: Create a form to register users that will take the normal details from the user and store it in the database. On successful form submission, an email will be triggered to the user with a custom brochure or PDF along with a thank you message via an AJAX call.
+Fields:
+1) Name
+2) Phone Number: with the option to select a country code prefix
+3) State: Select states and cities will populate accordingly
+4) DOB: age limit of 20+ (DOB will be validated)
+5) Email ID
+6) Password
+
+
+Part 2: The data submitted by the form needs to be displayed in a way that allows the admin to perform CRUD operations on it, and the result of the operation will be sent to the user via email (e.g. approved/disapproved by the admin, add soft delete).
